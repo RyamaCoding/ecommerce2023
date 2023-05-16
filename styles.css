@@ -390,12 +390,20 @@ h2 {
 
 /* FOOTER */
 
-footer {
+#footer {
     background-color: #222222;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0px 24px 0px;
+    padding: 56px 0px;
+}
+
+#footer__books{
+    background-color: #222222;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 56px 0px;
 }
 
 .footer__wrapper{
