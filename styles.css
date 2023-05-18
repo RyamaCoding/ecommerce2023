@@ -516,6 +516,11 @@ h2 {
   #books__main {
     flex: 1;
   }
+
+  .books__books{
+    display: flex;
+    flex-direction: column
+  }
   
   .books__header {
     display: flex;
