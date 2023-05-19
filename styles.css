@@ -329,6 +329,8 @@ h2 {
 
 .books {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -516,12 +518,6 @@ h2 {
   #books__main {
     flex: 1;
   }
-
-  .books__books{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-  }
   
   .books__header {
     display: flex;
@@ -546,8 +542,16 @@ h2 {
     width: 100%;
     max-width: 200px;
   }
-  
-  .books__loading {
+
+  .loading--spinner {
+    display: none !important;
+  }
+
+  .loading .loading--spinner{
+    display: block !important;
+  }
+
+  .loading{
     display: flex;
     align-items: center;
     justify-content: center;
